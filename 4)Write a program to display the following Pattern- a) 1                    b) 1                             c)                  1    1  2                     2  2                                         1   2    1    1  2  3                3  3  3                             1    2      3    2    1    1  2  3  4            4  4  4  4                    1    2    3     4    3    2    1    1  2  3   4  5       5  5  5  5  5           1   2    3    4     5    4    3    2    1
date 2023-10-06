@@ -1,0 +1,21 @@
+# Function to display the pattern a)
+def pattern_a(rows):
+    for i in range(1, rows + 1):
+        for j in range(1, i + 1):
+            print(j, end=" ")
+        print()
+
+# Function to display the pattern b)
+def pattern_b(rows):
+    for i in range(1, rows + 1):
+        for j in range(1, rows + 1):
+            if j <= i:
+                print(i, end=" ")
+            else:
+                print(j, end=" ")
+        print()
+
+# Function to display the pattern c)
+def pattern_c(rows):
+    for i in range(1, rows + 1):
+        for j in range(1
